@@ -1,0 +1,494 @@
+{
+  "atualizado_em": "2026-06-14",
+  "versao": "1.0",
+  "aditivos": [
+    {
+      "codigo": "E102",
+      "nome": "Tartrazina",
+      "categoria": "Corante",
+      "risco": "alto",
+      "descricao": "Corante amarelo sintético associado a hiperactividade em crianças e reacções alérgicas. Proibido em alguns países.",
+      "sugestao": "Procura produtos com corantes naturais como cúrcuma (E100) ou açafrão."
+    },
+    {
+      "codigo": "E104",
+      "nome": "Amarelo de Quinoleína",
+      "categoria": "Corante",
+      "risco": "alto",
+      "descricao": "Corante sintético associado a hiperactividade e alergias. Parte do grupo dos corantes de Southampton.",
+      "sugestao": "Evita produtos com cores artificiais intensas. Prefere alimentos com cor natural."
+    },
+    {
+      "codigo": "E110",
+      "nome": "Amarelo Sunset FCF",
+      "categoria": "Corante",
+      "risco": "alto",
+      "descricao": "Corante laranja-amarelo associado a hiperactividade em crianças e alergias. Um dos 6 corantes de Southampton.",
+      "sugestao": "Prefere corantes naturais como sumo de cenoura ou urucum (E160b)."
+    },
+    {
+      "codigo": "E122",
+      "nome": "Azorrubina (Carmoisina)",
+      "categoria": "Corante",
+      "risco": "alto",
+      "descricao": "Corante vermelho associado a hiperactividade. Proibido nos EUA e Australia.",
+      "sugestao": "Procura produtos com beterraba (E162) como corante natural."
+    },
+    {
+      "codigo": "E124",
+      "nome": "Ponceau 4R",
+      "categoria": "Corante",
+      "risco": "alto",
+      "descricao": "Corante vermelho dos 6 corantes de Southampton. Associado a hiperactividade e cancro em estudos animais.",
+      "sugestao": "Prefere produtos com corantes de origem natural como sumo de beterraba."
+    },
+    {
+      "codigo": "E129",
+      "nome": "Vermelho Allura AC",
+      "categoria": "Corante",
+      "risco": "alto",
+      "descricao": "Corante vermelho artificial um dos corantes de Southampton ligado a hiperactividade infantil.",
+      "sugestao": "Evita produtos com coloração vermelha artificial. Prefere corantes de beterraba."
+    },
+    {
+      "codigo": "E211",
+      "nome": "Benzoato de Sódio",
+      "categoria": "Conservante",
+      "risco": "alto",
+      "descricao": "Conservante que combinado com vitamina C forma benzeno cancerígeno. Associado a hiperactividade e alergias.",
+      "sugestao": "Prefere produtos conservados com vinagre (E260) ou sumo de limão."
+    },
+    {
+      "codigo": "E212",
+      "nome": "Benzoato de Potássio",
+      "categoria": "Conservante",
+      "risco": "alto",
+      "descricao": "Semelhante ao E211. Pode formar benzeno cancerígeno na presença de vitamina C.",
+      "sugestao": "Prefere produtos conservados com métodos naturais ou vinagre."
+    },
+    {
+      "codigo": "E213",
+      "nome": "Benzoato de Cálcio",
+      "categoria": "Conservante",
+      "risco": "alto",
+      "descricao": "Conservante da família dos benzoatos com riscos similares ao E211.",
+      "sugestao": "Evita produtos com benzoatos. Prefere conservação natural."
+    },
+    {
+      "codigo": "E220",
+      "nome": "Dióxido de Enxofre",
+      "categoria": "Conservante",
+      "risco": "alto",
+      "descricao": "Conservante que pode causar crises de asma em asmáticos e reacções alérgicas graves.",
+      "sugestao": "Se tens asma ou alergias evita produtos com sulfitos (E220-E228)."
+    },
+    {
+      "codigo": "E221",
+      "nome": "Sulfito de Sódio",
+      "categoria": "Conservante",
+      "risco": "alto",
+      "descricao": "Sulfito que pode desencadear crises de asma e destruir a vitamina B1.",
+      "sugestao": "Prefere vinho sem sulfitos adicionados ou sumos naturais frescos."
+    },
+    {
+      "codigo": "E250",
+      "nome": "Nitrito de Sódio",
+      "categoria": "Conservante",
+      "risco": "alto",
+      "descricao": "Conservante usado em carnes processadas. Pode formar nitrosaminas cancerígenas especialmente quando aquecido.",
+      "sugestao": "Procura carnes curadas com sal marinho sem nitritos ou produtos com 'sem nitritos adicionados'."
+    },
+    {
+      "codigo": "E251",
+      "nome": "Nitrato de Sódio",
+      "categoria": "Conservante",
+      "risco": "alto",
+      "descricao": "Usado em enchidos e carnes processadas. Precursor de nitrosaminas associadas ao cancro colorretal.",
+      "sugestao": "Reduz o consumo de carnes processadas. Prefere carne fresca ou fumada naturalmente."
+    },
+    {
+      "codigo": "E252",
+      "nome": "Nitrato de Potássio",
+      "categoria": "Conservante",
+      "risco": "alto",
+      "descricao": "Conservante em enchidos com riscos similares ao E251.",
+      "sugestao": "Limita o consumo de carnes curadas e enchidos. Prefere alternativas frescas."
+    },
+    {
+      "codigo": "E320",
+      "nome": "BHA (Butilhidroxianisole)",
+      "categoria": "Antioxidante",
+      "risco": "alto",
+      "descricao": "Antioxidante sintético classificado como possível cancerígeno pela IARC. Perturbador endócrino.",
+      "sugestao": "Prefere produtos com vitamina E (E306-E309) como antioxidante natural."
+    },
+    {
+      "codigo": "E321",
+      "nome": "BHT (Butilhidroxitolueno)",
+      "categoria": "Antioxidante",
+      "risco": "alto",
+      "descricao": "Antioxidante sintético com potencial perturbador endócrino. Associado a cancro em altas doses em animais.",
+      "sugestao": "Procura produtos com rosmaninho (E392) ou vitamina E como antioxidantes naturais."
+    },
+    {
+      "codigo": "E621",
+      "nome": "Glutamato Monossódico (MSG)",
+      "categoria": "Realçador de sabor",
+      "risco": "medio",
+      "descricao": "Realçador de sabor que pode causar dores de cabeça náuseas e suores em pessoas sensíveis. Associado ao 'síndrome do restaurante chinês'.",
+      "sugestao": "Procura temperos só com sal e especiarias naturais como alho cebola e ervas."
+    },
+    {
+      "codigo": "E622",
+      "nome": "Glutamato Monopotássico",
+      "categoria": "Realçador de sabor",
+      "risco": "medio",
+      "descricao": "Semelhante ao MSG. Pode causar sensibilidade em algumas pessoas.",
+      "sugestao": "Prefere produtos temperados com ingredientes naturais."
+    },
+    {
+      "codigo": "E951",
+      "nome": "Aspartame",
+      "categoria": "Edulcorante",
+      "risco": "alto",
+      "descricao": "Adoçante artificial classificado como possível cancerígeno (Grupo 2B) pela IARC em 2023. Contraindicado em fenilcetonúria.",
+      "sugestao": "Prefere stevia (E960) ou eritritol como adoçantes mais seguros."
+    },
+    {
+      "codigo": "E952",
+      "nome": "Ciclamato",
+      "categoria": "Edulcorante",
+      "risco": "alto",
+      "descricao": "Adoçante proibido nos EUA desde 1969 por suspeita de cancro. Permitido na UE mas com ADI restrita.",
+      "sugestao": "Prefere stevia (E960) ou fruto do monge como alternativas naturais."
+    },
+    {
+      "codigo": "E954",
+      "nome": "Sacarina",
+      "categoria": "Edulcorante",
+      "risco": "medio",
+      "descricao": "Adoçante artificial mais antigo. Associado a cancro da bexiga em altas doses em ratos mas classificado como seguro na UE.",
+      "sugestao": "Prefere stevia (E960) eritritol ou xilitol como alternativas."
+    },
+    {
+      "codigo": "E955",
+      "nome": "Sucralose",
+      "categoria": "Edulcorante",
+      "risco": "medio",
+      "descricao": "Adoçante artificial que pode alterar a microbiota intestinal. Estudos recentes associam-no a danos no ADN.",
+      "sugestao": "Prefere stevia (E960) como alternativa natural sem efeitos na microbiota."
+    },
+    {
+      "codigo": "E407",
+      "nome": "Carragenina",
+      "categoria": "Espessante",
+      "risco": "medio",
+      "descricao": "Espessante extraído de algas que pode causar inflamação intestinal e problemas digestivos.",
+      "sugestao": "Prefere produtos espessados com amido de milho (E1400) ou goma de guar (E412)."
+    },
+    {
+      "codigo": "E471",
+      "nome": "Mono e Diglicéridos de Ácidos Gordos",
+      "categoria": "Emulsionante",
+      "risco": "medio",
+      "descricao": "Emulsionante derivado de gorduras que pode conter gorduras trans. Encontrado em margarina e produtos industriais.",
+      "sugestao": "Prefere produtos com manteiga ou óleos vegetais naturais na composição."
+    },
+    {
+      "codigo": "E472e",
+      "nome": "Ésteres de Ácido Diacetiltartárico",
+      "categoria": "Emulsionante",
+      "risco": "medio",
+      "descricao": "Emulsionante sintético usado em pão e massas industriais para melhorar textura.",
+      "sugestao": "Prefere pão artesanal feito só com farinha água sal e fermento."
+    },
+    {
+      "codigo": "E621",
+      "nome": "Glutamato Monossódico",
+      "categoria": "Realçador de sabor",
+      "risco": "medio",
+      "descricao": "Realçador de sabor muito usado em snacks sopas e pratos pré-cozinhados.",
+      "sugestao": "Procura produtos temperados com ervas e especiarias naturais."
+    },
+    {
+      "codigo": "E102",
+      "nome": "Tartrazina",
+      "categoria": "Corante",
+      "risco": "alto",
+      "descricao": "Corante amarelo artificial dos 6 corantes de Southampton.",
+      "sugestao": "Prefere corantes naturais como cúrcuma."
+    },
+    {
+      "codigo": "E150a",
+      "nome": "Caramelo Simples",
+      "categoria": "Corante",
+      "risco": "baixo",
+      "descricao": "Caramelo obtido por aquecimento de açúcar. Considerado seguro.",
+      "sugestao": "Sem preocupação — origem natural."
+    },
+    {
+      "codigo": "E150d",
+      "nome": "Caramelo de Sulfito-amónia",
+      "categoria": "Corante",
+      "risco": "medio",
+      "descricao": "Caramelo processado com amónia e sulfitos. Pode conter 4-metilimidazol potencialmente cancerígeno.",
+      "sugestao": "Prefere produtos sem caramelo artificial. Usado em cola e cerveja escura."
+    },
+    {
+      "codigo": "E171",
+      "nome": "Dióxido de Titânio",
+      "categoria": "Corante",
+      "risco": "alto",
+      "descricao": "Corante branco banido na UE desde 2022 por suspeita de genotoxicidade. Ainda presente em alguns produtos importados.",
+      "sugestao": "Verifica se o produto foi fabricado na UE. Evita produtos com E171."
+    },
+    {
+      "codigo": "E172",
+      "nome": "Óxidos de Ferro",
+      "categoria": "Corante",
+      "risco": "baixo",
+      "descricao": "Corantes de óxido de ferro usados para colorir alimentos. Considerados seguros na UE.",
+      "sugestao": "Sem preocupação significativa."
+    },
+    {
+      "codigo": "E202",
+      "nome": "Sorbato de Potássio",
+      "categoria": "Conservante",
+      "risco": "baixo",
+      "descricao": "Conservante amplamente usado considerado seguro. Pode causar irritação em pessoas muito sensíveis.",
+      "sugestao": "Geralmente seguro. Sem preocupação para a maioria das pessoas."
+    },
+    {
+      "codigo": "E210",
+      "nome": "Ácido Benzóico",
+      "categoria": "Conservante",
+      "risco": "alto",
+      "descricao": "Conservante que pode formar benzeno cancerígeno com vitamina C. Pode agravar asma e eczema.",
+      "sugestao": "Prefere produtos conservados naturalmente com vinagre ou limão."
+    },
+    {
+      "codigo": "E282",
+      "nome": "Propionato de Cálcio",
+      "categoria": "Conservante",
+      "risco": "medio",
+      "descricao": "Conservante anti-fúngico usado em pão. Alguns estudos associam-no a irritabilidade e perturbações do sono em crianças.",
+      "sugestao": "Prefere pão artesanal fresco sem conservantes."
+    },
+    {
+      "codigo": "E330",
+      "nome": "Ácido Cítrico",
+      "categoria": "Acidulante",
+      "risco": "baixo",
+      "descricao": "Acidulante natural extraído de citrinos. Considerado seguro mas pode erosionar o esmalte dentário em excesso.",
+      "sugestao": "Seguro para consumo. Presente naturalmente em limões e laranjas."
+    },
+    {
+      "codigo": "E322",
+      "nome": "Lecitina de Soja",
+      "categoria": "Emulsionante",
+      "risco": "baixo",
+      "descricao": "Emulsionante natural extraído da soja. Considerado seguro. Atenção se tiveres alergia à soja.",
+      "sugestao": "Geralmente seguro. Se tens alergia à soja verifica a origem."
+    },
+    {
+      "codigo": "E415",
+      "nome": "Goma Xantana",
+      "categoria": "Espessante",
+      "risco": "baixo",
+      "descricao": "Espessante natural produzido por fermentação bacteriana. Considerado seguro. Pode causar problemas digestivos em excesso.",
+      "sugestao": "Geralmente seguro em quantidades normais."
+    },
+    {
+      "codigo": "E412",
+      "nome": "Goma de Guar",
+      "categoria": "Espessante",
+      "risco": "baixo",
+      "descricao": "Espessante natural extraído de sementes de guar. Considerado seguro e pode até reduzir o colesterol.",
+      "sugestao": "Sem preocupação — origem natural e benéfico."
+    },
+    {
+      "codigo": "E420",
+      "nome": "Sorbitol",
+      "categoria": "Edulcorante",
+      "risco": "baixo",
+      "descricao": "Álcool de açúcar natural. Em grandes quantidades pode causar diarreia e problemas digestivos.",
+      "sugestao": "Seguro em quantidades moderadas. Evita consumo excessivo."
+    },
+    {
+      "codigo": "E500",
+      "nome": "Carbonato de Sódio",
+      "categoria": "Regulador de acidez",
+      "risco": "baixo",
+      "descricao": "Bicarbonato de sódio usado como fermentante. Considerado muito seguro.",
+      "sugestao": "Sem preocupação — ingrediente de cozinha comum."
+    },
+    {
+      "codigo": "E960",
+      "nome": "Glicósidos de Esteviol (Stevia)",
+      "categoria": "Edulcorante",
+      "risco": "baixo",
+      "descricao": "Adoçante natural extraído da planta stevia. Considerado seguro e é uma boa alternativa ao açúcar.",
+      "sugestao": "Boa escolha como adoçante natural sem calorias."
+    },
+    {
+      "codigo": "E621",
+      "nome": "Glutamato Monossódico",
+      "categoria": "Realçador de sabor",
+      "risco": "medio",
+      "descricao": "Realçador de sabor umami. Pode causar sintomas em pessoas sensíveis.",
+      "sugestao": "Prefere produtos temperados com ingredientes naturais."
+    },
+    {
+      "codigo": "E951",
+      "nome": "Aspartame",
+      "categoria": "Edulcorante",
+      "risco": "alto",
+      "descricao": "Adoçante artificial classificado como possível cancerígeno em 2023.",
+      "sugestao": "Prefere stevia (E960) como alternativa mais segura."
+    },
+    {
+      "codigo": "E160a",
+      "nome": "Beta-caroteno",
+      "categoria": "Corante",
+      "risco": "baixo",
+      "descricao": "Corante laranja natural precursor da vitamina A. Considerado seguro e benéfico.",
+      "sugestao": "Sem preocupação — corante natural e nutritivo."
+    },
+    {
+      "codigo": "E300",
+      "nome": "Ácido Ascórbico (Vitamina C)",
+      "categoria": "Antioxidante",
+      "risco": "baixo",
+      "descricao": "Vitamina C usada como antioxidante. Completamente segura e benéfica para a saúde.",
+      "sugestao": "Sem preocupação — é vitamina C."
+    },
+    {
+      "codigo": "E306",
+      "nome": "Extracto Rico em Tocoferóis (Vitamina E)",
+      "categoria": "Antioxidante",
+      "risco": "baixo",
+      "descricao": "Vitamina E natural usada como antioxidante. Considerada segura e benéfica.",
+      "sugestao": "Sem preocupação — antioxidante natural."
+    },
+    {
+      "codigo": "E440",
+      "nome": "Pectina",
+      "categoria": "Espessante",
+      "risco": "baixo",
+      "descricao": "Fibra natural extraída de maçãs e citrinos. Considerada muito segura e benéfica para a digestão.",
+      "sugestao": "Sem preocupação — fibra natural benéfica."
+    },
+    {
+      "codigo": "E450",
+      "nome": "Difosfatos",
+      "categoria": "Emulsionante",
+      "risco": "medio",
+      "descricao": "Fosfatos que em excesso podem reduzir a absorção de cálcio e prejudicar os rins.",
+      "sugestao": "Evita consumo excessivo de produtos ultra-processados com fosfatos."
+    },
+    {
+      "codigo": "E452",
+      "nome": "Polifosfatos",
+      "categoria": "Emulsionante",
+      "risco": "medio",
+      "descricao": "Fosfatos usados para reter água em carnes processadas. Em excesso prejudicam a saúde renal.",
+      "sugestao": "Prefere carne fresca sem aditivos."
+    },
+    {
+      "codigo": "E635",
+      "nome": "Ribonucleotidos de Sódio",
+      "categoria": "Realçador de sabor",
+      "risco": "medio",
+      "descricao": "Realçador de sabor que intensifica o efeito do MSG. Pode desencadear gota em pessoas predispostas.",
+      "sugestao": "Se tens gota ou hiperuricemia evita produtos com E635."
+    },
+    {
+      "codigo": "E901",
+      "nome": "Cera de Abelha",
+      "categoria": "Agente de revestimento",
+      "risco": "baixo",
+      "descricao": "Cera natural usada para revestir frutas e doces. Considerada segura.",
+      "sugestao": "Sem preocupação — origem natural."
+    },
+    {
+      "codigo": "E904",
+      "nome": "Shellac (Goma-laca)",
+      "categoria": "Agente de revestimento",
+      "risco": "baixo",
+      "descricao": "Resina natural secretada por insectos. Usada para dar brilho a frutas e doces.",
+      "sugestao": "Sem riscos para a saúde. Atenção se for vegetariano ou vegano."
+    }
+  ],
+  "ingredientes_prejudiciais": [
+    {
+      "nome": "Gorduras Hidrogenadas",
+      "aliases": ["gordura hidrogenada", "óleo parcialmente hidrogenado", "margarina hidrogenada", "gordura vegetal hidrogenada"],
+      "risco": "alto",
+      "descricao": "Gorduras trans industriais fortemente associadas a doenças cardiovasculares. Aumentam o mau colesterol e reduzem o bom.",
+      "sugestao": "Prefere produtos com manteiga azeite ou óleos vegetais não hidrogenados."
+    },
+    {
+      "nome": "Xarope de Glucose-Frutose",
+      "aliases": ["xarope de milho", "high fructose corn syrup", "HFCS", "xarope de glucose", "isoglucose"],
+      "risco": "alto",
+      "descricao": "Adoçante industrial altamente processado associado a obesidade diabetes tipo 2 e doença hepática.",
+      "sugestao": "Prefere produtos adoçados com açúcar normal mel ou tâmaras."
+    },
+    {
+      "nome": "Açúcar Refinado",
+      "aliases": ["açúcar", "sacarose", "glucose", "dextrose", "maltose", "açúcar branco"],
+      "risco": "medio",
+      "descricao": "Em excesso associado a obesidade diabetes e inflamação crónica.",
+      "sugestao": "Consome com moderação. Prefere adoçantes naturais como mel ou frutos."
+    },
+    {
+      "nome": "Sal em Excesso",
+      "aliases": ["cloreto de sódio", "sal", "sal iodado", "flor de sal"],
+      "risco": "medio",
+      "descricao": "Em excesso aumenta a pressão arterial e o risco cardiovascular.",
+      "sugestao": "Verifica o teor de sal. Prefere produtos com menos de 1,5g de sal por 100g."
+    },
+    {
+      "nome": "Aromas Artificiais",
+      "aliases": ["aroma artificial", "aromas artificiais", "flavour", "aroma sintético"],
+      "risco": "medio",
+      "descricao": "Mistura de substâncias químicas sintéticas que imitam sabores naturais. Podem conter centenas de compostos.",
+      "sugestao": "Prefere produtos com aromas naturais ou ingredientes reais identificáveis."
+    },
+    {
+      "nome": "Corantes Artificiais",
+      "aliases": ["corante artificial", "corantes artificiais", "colorante artificial"],
+      "risco": "alto",
+      "descricao": "Corantes sintéticos sem valor nutricional associados a hiperactividade e alergias.",
+      "sugestao": "Prefere produtos com corantes naturais ou sem corantes."
+    },
+    {
+      "nome": "Farinha Refinada",
+      "aliases": ["farinha de trigo", "farinha branca", "farinha refinada", "farinha tipo 55", "farinha tipo 65"],
+      "risco": "medio",
+      "descricao": "Farinha sem fibra que causa picos de açúcar no sangue. Índice glicémico elevado.",
+      "sugestao": "Prefere farinha integral ou de espelta que mantém a fibra natural."
+    },
+    {
+      "nome": "Óleo de Palma",
+      "aliases": ["óleo de palma", "gordura de palma", "palm oil", "palm fat"],
+      "risco": "medio",
+      "descricao": "Rico em gorduras saturadas. Processado a altas temperaturas pode conter compostos prejudiciais. Também problemático para o ambiente.",
+      "sugestao": "Prefere produtos com azeite manteiga ou óleo de coco."
+    },
+    {
+      "nome": "Amido Modificado",
+      "aliases": ["amido modificado", "amido de milho modificado", "fécula modificada"],
+      "risco": "baixo",
+      "descricao": "Amido processado quimicamente para alterar propriedades. Geralmente seguro mas indica produto ultra-processado.",
+      "sugestao": "Sem grande preocupação mas indica produto muito processado."
+    },
+    {
+      "nome": "Proteína de Soja Texturizada",
+      "aliases": ["proteína de soja", "soja texturizada", "TSP", "TVP"],
+      "risco": "baixo",
+      "descricao": "Proteína extraída da soja muito processada. Contém fitatos que podem reduzir absorção de minerais.",
+      "sugestao": "Prefere soja fermentada como tofu tempeh ou edamame."
+    }
+  ]
+}
