@@ -1,0 +1,721 @@
+{
+  "atualizado_em": "2026-06-14",
+  "semana": "8-14 Jun 2026",
+  "lojas": [
+    { "id": "continente",  "name": "Continente",  "short": "Cont.", "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 20  },
+    { "id": "pingodoce",   "name": "Pingo Doce",  "short": "P.D.",  "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 145 },
+    { "id": "lidl",        "name": "Lidl",        "short": "Lidl",  "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 225 },
+    { "id": "aldi",        "name": "Aldi",        "short": "Aldi",  "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 200 },
+    { "id": "mercadona",   "name": "Mercadona",   "short": "Merc.", "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 160 },
+    { "id": "intermarche", "name": "Intermarché", "short": "Inter", "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 10  },
+    { "id": "minipreco",   "name": "Minipreço",   "short": "Mini",  "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 50  },
+    { "id": "froiz",       "name": "Froiz",       "short": "Froiz", "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 130 },
+    { "id": "spar",        "name": "Spar",        "short": "Spar",  "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 30  },
+    { "id": "leclerc",     "name": "E.Leclerc",   "short": "Lec.",  "tipo": "supermercado", "distritos": ["all"], "categorias": ["all"], "hue": 220 }
+  ],
+  "categorias": [
+    { "id": "carnes",     "name": "Carnes & Peixe",   "glyph": "🥩" },
+    { "id": "frescos",    "name": "Frescos",           "glyph": "🥬" },
+    { "id": "laticinios", "name": "Laticínios",        "glyph": "🥛" },
+    { "id": "bebidas",    "name": "Bebidas",           "glyph": "💧" },
+    { "id": "higiene",    "name": "Higiene & Limpeza", "glyph": "🧴" },
+    { "id": "congelados", "name": "Congelados",        "glyph": "❄️" }
+  ],
+  "produtos": [
+    {
+      "id": "frango_inteiro", "name": "Frango Inteiro", "unit": "unid.", "category": "carnes",
+      "nutri_score": "B", "nova": 2, "glyph": "🍗",
+      "tags": ["frango", "carne", "aves", "inteiro"],
+      "prices": {
+        "continente":  { "base": 3.29, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 3.29, "promo": 1.49, "promo_ate": "2026-06-14" },
+        "lidl":        { "base": 2.59, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 2.79, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 2.99, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 3.19, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 2.79, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 2.69, "promo": null, "promo_ate": null },
+        "spar":        { "base": 2.99, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 2.59, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "carne_picada", "name": "Carne Picada 500g", "unit": "emb.", "category": "carnes",
+      "nutri_score": "C", "nova": 3, "glyph": "🥩",
+      "tags": ["carne", "picada", "novilho", "vaca"],
+      "prices": {
+        "continente":  { "base": 3.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 3.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 3.29, "promo": 2.49, "promo_ate": "2026-06-15" },
+        "aldi":        { "base": 3.19, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 3.49, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 3.89, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 3.49, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 3.39, "promo": null, "promo_ate": null },
+        "spar":        { "base": 3.69, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 3.29, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "pescada", "name": "Pescada Congelada 700g", "unit": "emb.", "category": "carnes",
+      "nutri_score": "A", "nova": 1, "glyph": "🐟",
+      "tags": ["pescada", "peixe", "congelado", "bacalhau"],
+      "prices": {
+        "continente":  { "base": 4.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 4.29, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 3.59, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 3.49, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 3.99, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 4.29, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 3.99, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 3.89, "promo": null, "promo_ate": null },
+        "spar":        { "base": 4.19, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 3.79, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "salmao_fresco", "name": "Salmão Fresco 300g", "unit": "emb.", "category": "carnes",
+      "nutri_score": "A", "nova": 1, "glyph": "🍣",
+      "tags": ["salmão", "peixe", "fresco", "salmon"],
+      "prices": {
+        "continente":  { "base": 6.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 6.49, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 5.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 5.89, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 6.29, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 6.79, "promo": 5.49, "promo_ate": "2026-06-13" },
+        "minipreco":   { "base": 6.49, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 6.19, "promo": null, "promo_ate": null },
+        "spar":        { "base": 6.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 5.99, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "tomates", "name": "Tomates 1kg", "unit": "kg", "category": "frescos",
+      "nutri_score": "A", "nova": 1, "glyph": "🍅",
+      "tags": ["tomate", "fresco", "legume", "tomates"],
+      "prices": {
+        "continente":  { "base": 1.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.99, "promo": 0.59, "promo_ate": "2026-06-14" },
+        "lidl":        { "base": 1.49, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.59, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.69, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.89, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.59, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.49, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.39, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "alface", "name": "Alface Iceberg", "unit": "unid.", "category": "frescos",
+      "nutri_score": "A", "nova": 1, "glyph": "🥬",
+      "tags": ["alface", "fresco", "salada", "legume"],
+      "prices": {
+        "continente":  { "base": 0.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 0.99, "promo": 0.29, "promo_ate": "2026-06-14" },
+        "lidl":        { "base": 0.79, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 0.79, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 0.89, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 0.95, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 0.89, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 0.79, "promo": null, "promo_ate": null },
+        "spar":        { "base": 0.99, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 0.75, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "laranjas", "name": "Laranjas Valencia 1kg", "unit": "kg", "category": "frescos",
+      "nutri_score": "A", "nova": 1, "glyph": "🍊",
+      "tags": ["laranja", "fruta", "fresco", "laranjas", "valencia"],
+      "prices": {
+        "continente":  { "base": 1.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.99, "promo": 0.59, "promo_ate": "2026-06-14" },
+        "lidl":        { "base": 1.39, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.29, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.59, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.79, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.69, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.49, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.89, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.39, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "bananas", "name": "Bananas 1kg", "unit": "kg", "category": "frescos",
+      "nutri_score": "A", "nova": 1, "glyph": "🍌",
+      "tags": ["banana", "fruta", "fresco", "bananas"],
+      "prices": {
+        "continente":  { "base": 1.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.39, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.09, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 0.99, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.19, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.35, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.19, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.09, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.29, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 0.99, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "leite_uht", "name": "Leite UHT 1L", "unit": "unid.", "category": "laticinios",
+      "nutri_score": "B", "nova": 2, "glyph": "🥛",
+      "tags": ["leite", "uht", "laticínio", "mimosa", "parmalat"],
+      "prices": {
+        "continente":  { "base": 1.09, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.05, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 0.85, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 0.82, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 0.95, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.00, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 0.95, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 0.89, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.05, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 0.85, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "iogurte_grego", "name": "Iogurte Grego 4×150g", "unit": "pack", "category": "laticinios",
+      "nutri_score": "B", "nova": 2, "glyph": "🍶",
+      "tags": ["iogurte", "grego", "laticínio", "iogurtes"],
+      "prices": {
+        "continente":  { "base": 2.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 2.29, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.89, "promo": 1.19, "promo_ate": "2026-06-15" },
+        "aldi":        { "base": 1.79, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 2.09, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 2.39, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 2.09, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.99, "promo": null, "promo_ate": null },
+        "spar":        { "base": 2.29, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.89, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "queijo_flamengo", "name": "Queijo Flamengo 400g", "unit": "emb.", "category": "laticinios",
+      "nutri_score": "C", "nova": 3, "glyph": "🧀",
+      "tags": ["queijo", "flamengo", "laticínio", "fatiado"],
+      "prices": {
+        "continente":  { "base": 3.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 3.29, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 2.79, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 2.69, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 3.09, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 3.39, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 3.19, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 2.99, "promo": null, "promo_ate": null },
+        "spar":        { "base": 3.39, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 2.89, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "manteiga", "name": "Manteiga sem Sal 250g", "unit": "emb.", "category": "laticinios",
+      "nutri_score": "D", "nova": 3, "glyph": "🧈",
+      "tags": ["manteiga", "laticínio", "sal", "barrar"],
+      "prices": {
+        "continente":  { "base": 2.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 2.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 2.39, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 2.99, "promo": 1.59, "promo_ate": "2026-06-15" },
+        "mercadona":   { "base": 2.59, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 2.89, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 2.49, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 2.39, "promo": null, "promo_ate": null },
+        "spar":        { "base": 2.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 2.29, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "agua_6pack", "name": "Água 1.5L pack 6", "unit": "pack", "category": "bebidas",
+      "nutri_score": "A", "nova": 1, "glyph": "💧",
+      "tags": ["água", "water", "pack", "1.5l", "agua"],
+      "prices": {
+        "continente":  { "base": 2.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 2.29, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.89, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 2.49, "promo": 1.39, "promo_ate": "2026-06-14" },
+        "intermarche": { "base": 2.39, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.89, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.79, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.99, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.69, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "sumo_laranja", "name": "Sumo Laranja 1L", "unit": "unid.", "category": "bebidas",
+      "nutri_score": "C", "nova": 3, "glyph": "🧃",
+      "tags": ["sumo", "laranja", "compal", "bebida", "sumos"],
+      "prices": {
+        "continente":  { "base": 2.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 2.49, "promo": 1.19, "promo_ate": "2026-06-14" },
+        "lidl":        { "base": 1.89, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.79, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 2.09, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 2.29, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.99, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.89, "promo": null, "promo_ate": null },
+        "spar":        { "base": 2.19, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.79, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "cerveja_6pack", "name": "Cerveja pack 6×33cl", "unit": "pack", "category": "bebidas",
+      "nutri_score": "D", "nova": 4, "glyph": "🍺",
+      "tags": ["cerveja", "beer", "pack", "sagres", "super bock"],
+      "prices": {
+        "continente":  { "base": 4.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 4.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 3.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 3.89, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 4.29, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 4.69, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 4.49, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 4.29, "promo": null, "promo_ate": null },
+        "spar":        { "base": 4.69, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 3.99, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "champo", "name": "Champô 400ml", "unit": "unid.", "category": "higiene",
+      "nutri_score": null, "nova": null, "glyph": "🧴",
+      "tags": ["champô", "shampoo", "cabelo", "higiene"],
+      "prices": {
+        "continente":  { "base": 3.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 3.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 2.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 2.89, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 3.29, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 3.69, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 3.49, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 3.29, "promo": null, "promo_ate": null },
+        "spar":        { "base": 3.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 2.99, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "gel_banho", "name": "Gel de Banho 500ml", "unit": "unid.", "category": "higiene",
+      "nutri_score": null, "nova": null, "glyph": "🫧",
+      "tags": ["gel", "banho", "dove", "higiene", "duche"],
+      "prices": {
+        "continente":  { "base": 3.99, "promo": 1.99, "promo_ate": "2026-06-14" },
+        "pingodoce":   { "base": 2.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.89, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 2.29, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 2.69, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 2.19, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.99, "promo": null, "promo_ate": null },
+        "spar":        { "base": 2.39, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.89, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "detergente_roupa", "name": "Detergente Roupa 30 doses", "unit": "unid.", "category": "higiene",
+      "nutri_score": null, "nova": null, "glyph": "🧺",
+      "tags": ["detergente", "roupa", "lavar", "higiene", "ariel", "persil"],
+      "prices": {
+        "continente":  { "base": 8.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 8.49, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 6.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 8.99, "promo": 4.79, "promo_ate": "2026-06-15" },
+        "mercadona":   { "base": 7.49, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 8.29, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 7.99, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 7.49, "promo": null, "promo_ate": null },
+        "spar":        { "base": 8.49, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 6.99, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "ervilhas", "name": "Ervilhas Congeladas 1kg", "unit": "emb.", "category": "congelados",
+      "nutri_score": "A", "nova": 1, "glyph": "🟢",
+      "tags": ["ervilhas", "congelado", "legume", "verdura"],
+      "prices": {
+        "continente":  { "base": 1.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.89, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.49, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.39, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.69, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.89, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.59, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.49, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.39, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "pizza_congelada", "name": "Pizza Ristorante 355g", "unit": "unid.", "category": "congelados",
+      "nutri_score": "D", "nova": 4, "glyph": "🍕",
+      "tags": ["pizza", "ristorante", "congelado", "dr oetker"],
+      "prices": {
+        "continente":  { "base": 4.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 4.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 4.99, "promo": 2.49, "promo_ate": "2026-06-15" },
+        "aldi":        { "base": 3.29, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 3.99, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 4.59, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 3.79, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 3.59, "promo": null, "promo_ate": null },
+        "spar":        { "base": 3.99, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 3.49, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "batata_frita", "name": "Batatas Fritas 1kg", "unit": "emb.", "category": "congelados",
+      "nutri_score": "C", "nova": 4, "glyph": "🍟",
+      "tags": ["batata", "fritas", "congelado", "frites"],
+      "prices": {
+        "continente":  { "base": 2.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 2.29, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.79, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.69, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 2.09, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 2.39, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.99, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.89, "promo": null, "promo_ate": null },
+        "spar":        { "base": 2.19, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.79, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "arroz_agulha", "name": "Arroz Agulha 1kg", "unit": "emb.", "category": "frescos",
+      "nutri_score": "B", "nova": 1, "glyph": "🍚",
+      "tags": ["arroz", "agulha", "carolino", "cereal"],
+      "prices": {
+        "continente":  { "base": 1.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.39, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 0.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 0.95, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.09, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.35, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.19, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.09, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.39, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 0.99, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "massa_esparguete", "name": "Massa Esparguete 500g", "unit": "emb.", "category": "frescos",
+      "nutri_score": "B", "nova": 1, "glyph": "🍝",
+      "tags": ["massa", "esparguete", "pasta", "spaghetti"],
+      "prices": {
+        "continente":  { "base": 1.29, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.19, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 0.79, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 0.75, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 0.89, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.15, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 0.99, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 0.89, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.19, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 0.79, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "azeite", "name": "Azeite Virgem Extra 750ml", "unit": "unid.", "category": "frescos",
+      "nutri_score": "B", "nova": 1, "glyph": "🫒",
+      "tags": ["azeite", "oliva", "virgem", "extra"],
+      "prices": {
+        "continente":  { "base": 5.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 5.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 4.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 4.79, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 5.29, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 5.69, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 5.49, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 5.19, "promo": null, "promo_ate": null },
+        "spar":        { "base": 5.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 4.89, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "ovos_12", "name": "Ovos 12 unidades", "unit": "emb.", "category": "laticinios",
+      "nutri_score": "B", "nova": 1, "glyph": "🥚",
+      "tags": ["ovos", "ovo", "eggs", "dúzia"],
+      "prices": {
+        "continente":  { "base": 2.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 2.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 2.39, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 2.29, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 2.59, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 2.89, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 2.69, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 2.49, "promo": null, "promo_ate": null },
+        "spar":        { "base": 2.89, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 2.29, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "atum_lata", "name": "Atum em Lata 120g", "unit": "unid.", "category": "carnes",
+      "nutri_score": "B", "nova": 2, "glyph": "🐠",
+      "tags": ["atum", "lata", "conserva", "peixe"],
+      "prices": {
+        "continente":  { "base": 1.89, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.39, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.29, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.59, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.75, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.69, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.49, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.35, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "pao_forma", "name": "Pão de Forma 500g", "unit": "emb.", "category": "frescos",
+      "nutri_score": "C", "nova": 3, "glyph": "🍞",
+      "tags": ["pão", "forma", "bread", "toast", "padaria"],
+      "prices": {
+        "continente":  { "base": 1.89, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.29, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.19, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.49, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.75, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.59, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.45, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.25, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "papel_higienico", "name": "Papel Higiénico 12 rolos", "unit": "emb.", "category": "higiene",
+      "nutri_score": null, "nova": null, "glyph": "🧻",
+      "tags": ["papel", "higiénico", "wc", "rolos", "toalhas"],
+      "prices": {
+        "continente":  { "base": 4.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 4.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 3.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 3.79, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 4.29, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 4.69, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 4.49, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 4.19, "promo": null, "promo_ate": null },
+        "spar":        { "base": 4.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 3.89, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "fiambre", "name": "Fiambre Fatiado 200g", "unit": "emb.", "category": "carnes",
+      "nutri_score": "C", "nova": 3, "glyph": "🥓",
+      "tags": ["fiambre", "fatiado", "presunto", "porco"],
+      "prices": {
+        "continente":  { "base": 2.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 2.29, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.89, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.79, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 2.09, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 2.39, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 2.19, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.99, "promo": null, "promo_ate": null },
+        "spar":        { "base": 2.29, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.85, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "cenouras", "name": "Cenouras 1kg", "unit": "kg", "category": "frescos",
+      "nutri_score": "A", "nova": 1, "glyph": "🥕",
+      "tags": ["cenoura", "cenouras", "legume", "fresco"],
+      "prices": {
+        "continente":  { "base": 1.29, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.19, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 0.89, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 0.85, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 0.99, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.19, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.09, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 0.95, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.19, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 0.85, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "batata_kg", "name": "Batatas 1.5kg", "unit": "emb.", "category": "frescos",
+      "nutri_score": "A", "nova": 1, "glyph": "🥔",
+      "tags": ["batata", "batatas", "legume", "fresco"],
+      "prices": {
+        "continente":  { "base": 1.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.89, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.49, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.39, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.59, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.79, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.69, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.55, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.89, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.39, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "acucar", "name": "Açúcar 1kg", "unit": "emb.", "category": "frescos",
+      "nutri_score": "D", "nova": 1, "glyph": "🍬",
+      "tags": ["açúcar", "sugar", "acucar", "branco"],
+      "prices": {
+        "continente":  { "base": 1.49, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.39, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 0.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 0.95, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.09, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.35, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.19, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.09, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.39, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 0.95, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "cafe_250g", "name": "Café Moído 250g", "unit": "emb.", "category": "bebidas",
+      "nutri_score": "B", "nova": 1, "glyph": "☕",
+      "tags": ["café", "coffee", "moído", "delta", "sical"],
+      "prices": {
+        "continente":  { "base": 3.99, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 3.79, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 2.99, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 2.89, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 3.29, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 3.69, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 3.49, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 3.29, "promo": null, "promo_ate": null },
+        "spar":        { "base": 3.79, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 2.99, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "natas", "name": "Natas para Culinária 200ml", "unit": "unid.", "category": "laticinios",
+      "nutri_score": "D", "nova": 2, "glyph": "🫙",
+      "tags": ["natas", "culinária", "cozinhar", "laticínio"],
+      "prices": {
+        "continente":  { "base": 1.29, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.19, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 0.89, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 0.85, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 0.99, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.19, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.09, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 0.95, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.19, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 0.85, "promo": null, "promo_ate": null }
+      }
+    },
+    {
+      "id": "maçãs", "name": "Maçãs 1kg", "unit": "kg", "category": "frescos",
+      "nutri_score": "A", "nova": 1, "glyph": "🍎",
+      "tags": ["maçã", "maçãs", "fruta", "apple"],
+      "prices": {
+        "continente":  { "base": 1.79, "promo": null, "promo_ate": null },
+        "pingodoce":   { "base": 1.69, "promo": null, "promo_ate": null },
+        "lidl":        { "base": 1.29, "promo": null, "promo_ate": null },
+        "aldi":        { "base": 1.19, "promo": null, "promo_ate": null },
+        "mercadona":   { "base": 1.49, "promo": null, "promo_ate": null },
+        "intermarche": { "base": 1.65, "promo": null, "promo_ate": null },
+        "minipreco":   { "base": 1.59, "promo": null, "promo_ate": null },
+        "froiz":       { "base": 1.39, "promo": null, "promo_ate": null },
+        "spar":        { "base": 1.69, "promo": null, "promo_ate": null },
+        "leclerc":     { "base": 1.19, "promo": null, "promo_ate": null }
+      }
+    }
+  ],
+  "folhetos": [
+    {
+      "id": "fl_frango", "category": "carnes", "store": "pingodoce",
+      "product": "Frango do Campo Inteiro", "detail": "unid. ≈1,2kg",
+      "normalPrice": 3.29, "promoPrice": 1.49, "savingPct": 55,
+      "validUntil": "14 jun", "glyph": "🍗", "highlight": true, "relampago": false
+    },
+    {
+      "id": "fl_tomate", "category": "frescos", "store": "pingodoce",
+      "product": "Tomate Rama", "detail": "1 kg",
+      "normalPrice": 1.99, "promoPrice": 0.59, "savingPct": 70,
+      "validUntil": "14 jun", "glyph": "🍅", "highlight": true, "relampago": false
+    },
+    {
+      "id": "fl_laranja", "category": "frescos", "store": "pingodoce",
+      "product": "Laranjas Valencia", "detail": "1 kg",
+      "normalPrice": 1.99, "promoPrice": 0.59, "savingPct": 70,
+      "validUntil": "14 jun", "glyph": "🍊", "highlight": false, "relampago": false
+    },
+    {
+      "id": "fl_picada", "category": "carnes", "store": "lidl",
+      "product": "Carne Picada Novilho", "detail": "500 g",
+      "normalPrice": 3.99, "promoPrice": 2.49, "savingPct": 38,
+      "validUntil": "15 jun", "glyph": "🥩", "highlight": false, "relampago": false
+    },
+    {
+      "id": "fl_pizza", "category": "congelados", "store": "lidl",
+      "product": "Pizza Ristorante", "detail": "355 g",
+      "normalPrice": 4.99, "promoPrice": 2.49, "savingPct": 50,
+      "validUntil": "15 jun", "glyph": "🍕", "highlight": true, "relampago": false
+    },
+    {
+      "id": "fl_iogurte", "category": "laticinios", "store": "lidl",
+      "product": "Iogurte Grego Natural", "detail": "4×150g",
+      "normalPrice": 2.29, "promoPrice": 1.19, "savingPct": 48,
+      "validUntil": "15 jun", "glyph": "🍶", "highlight": true, "relampago": false
+    },
+    {
+      "id": "fl_manteiga", "category": "laticinios", "store": "aldi",
+      "product": "Manteiga sem Sal", "detail": "250 g",
+      "normalPrice": 2.99, "promoPrice": 1.59, "savingPct": 47,
+      "validUntil": "15 jun", "glyph": "🧈", "highlight": false, "relampago": false
+    },
+    {
+      "id": "fl_detergente", "category": "higiene", "store": "aldi",
+      "product": "Detergente Roupa 30 doses", "detail": "30 doses",
+      "normalPrice": 8.99, "promoPrice": 4.79, "savingPct": 47,
+      "validUntil": "15 jun", "glyph": "🧺", "highlight": false, "relampago": false
+    },
+    {
+      "id": "fl_agua", "category": "bebidas", "store": "mercadona",
+      "product": "Água 1,5L pack 6", "detail": "pack 6",
+      "normalPrice": 2.49, "promoPrice": 1.39, "savingPct": 44,
+      "validUntil": "14 jun", "glyph": "💧", "highlight": true, "relampago": true
+    },
+    {
+      "id": "fl_sumo", "category": "bebidas", "store": "pingodoce",
+      "product": "Compal Frutos Tropicais", "detail": "1 L",
+      "normalPrice": 2.49, "promoPrice": 1.19, "savingPct": 52,
+      "validUntil": "14 jun", "glyph": "🧃", "highlight": false, "relampago": true
+    },
+    {
+      "id": "fl_salmao", "category": "carnes", "store": "intermarche",
+      "product": "Salmão Fumado", "detail": "100 g",
+      "normalPrice": 3.49, "promoPrice": 1.99, "savingPct": 43,
+      "validUntil": "13 jun", "glyph": "🐟", "highlight": false, "relampago": false
+    },
+    {
+      "id": "fl_gel", "category": "higiene", "store": "continente",
+      "product": "Dove Shower Gel", "detail": "500 ml",
+      "normalPrice": 3.99, "promoPrice": 1.99, "savingPct": 50,
+      "validUntil": "14 jun", "glyph": "🧴", "highlight": true, "relampago": false
+    }
+  ],
+  "notificacoes": [
+    {
+      "id": "n1", "type": "ranking",
+      "title": "Pingo Doce sobe no ranking",
+      "body": "Pingo Doce ultrapassa Lidl nos Frescos e fica em 2.ª posição — promoções nos legumes até domingo.",
+      "time": "há 2h", "read": false, "plan": "plus"
+    },
+    {
+      "id": "n2", "type": "relampago",
+      "title": "⚡ Relâmpago · Mercadona",
+      "body": "Pack de 6 águas a 1,39€ — menos 44%. Válido só hoje!",
+      "time": "há 30min", "read": false, "plan": "free"
+    },
+    {
+      "id": "n3", "type": "relampago",
+      "title": "⚡ Relâmpago · Pingo Doce",
+      "body": "Compal Frutos Tropicais 1L a 1,19€ — menos 52%. Até amanhã.",
+      "time": "há 1h", "read": false, "plan": "free"
+    },
+    {
+      "id": "n4", "type": "ranking",
+      "title": "Aldi desce nos Laticínios",
+      "body": "Aldi perde 2 posições no ranking de Laticínios após subida de preços na manteiga e iogurtes.",
+      "time": "há 1 dia", "read": true, "plan": "plus"
+    }
+  ]
+}
